@@ -17,6 +17,7 @@
 		C3C10BFB2B05BE9200EF60DD /* StopState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C10BFA2B05BE9200EF60DD /* StopState.swift */; };
 		C3C10BFD2B05BEA700EF60DD /* InitState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C10BFC2B05BEA700EF60DD /* InitState.swift */; };
 		C3C10BFF2B05BED400EF60DD /* Presentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C10BFE2B05BED400EF60DD /* Presentor.swift */; };
+		C3C10C022B05C9C500EF60DD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C10C012B05C9C500EF60DD /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C3C10BFA2B05BE9200EF60DD /* StopState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopState.swift; sourceTree = "<group>"; };
 		C3C10BFC2B05BEA700EF60DD /* InitState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitState.swift; sourceTree = "<group>"; };
 		C3C10BFE2B05BED400EF60DD /* Presentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentor.swift; sourceTree = "<group>"; };
+		C3C10C012B05C9C500EF60DD /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				C3C10BE32B05B0F200EF60DD /* AppDelegate.swift */,
 				C3C10BE52B05B0F200EF60DD /* SceneDelegate.swift */,
 				C3C10BE72B05B0F200EF60DD /* ViewController.swift */,
+				C3C10C002B05C9B500EF60DD /* Func */,
 				C3C10BF72B05BE6900EF60DD /* DI */,
 				C3C10BE92B05B0F200EF60DD /* Main.storyboard */,
 				C3C10BEC2B05B0F800EF60DD /* Assets.xcassets */,
@@ -85,6 +88,14 @@
 				C3C10BFA2B05BE9200EF60DD /* StopState.swift */,
 			);
 			path = DI;
+			sourceTree = "<group>";
+		};
+		C3C10C002B05C9B500EF60DD /* Func */ = {
+			isa = PBXGroup;
+			children = (
+				C3C10C012B05C9C500EF60DD /* Result.swift */,
+			);
+			path = Func;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				C3C10BFB2B05BE9200EF60DD /* StopState.swift in Sources */,
 				C3C10BE62B05B0F200EF60DD /* SceneDelegate.swift in Sources */,
 				C3C10BF92B05BE8200EF60DD /* RunState.swift in Sources */,
+				C3C10C022B05C9C500EF60DD /* Result.swift in Sources */,
 				C3C10BFF2B05BED400EF60DD /* Presentor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
