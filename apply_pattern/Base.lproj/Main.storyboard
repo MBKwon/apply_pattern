@@ -43,13 +43,23 @@
                                     <constraint firstAttribute="width" constant="200" id="egJ-jr-1Qj"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddD-1L-L2Z">
+                                <rect key="frame" x="141" y="163" width="111.33333333333331" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Test Button"/>
+                                <connections>
+                                    <action selector="touchTestButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="tOO-ty-ulK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="yTb-ab-pML" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fsd-1L-Thm"/>
                             <constraint firstItem="q3Y-he-imi" firstAttribute="top" secondItem="yTb-ab-pML" secondAttribute="bottom" constant="100" id="NJL-tc-r1e"/>
+                            <constraint firstItem="yTb-ab-pML" firstAttribute="top" secondItem="ddD-1L-L2Z" secondAttribute="bottom" constant="60" id="aZW-4l-Myi"/>
                             <constraint firstItem="q3Y-he-imi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dyV-oe-L5Z"/>
+                            <constraint firstItem="ddD-1L-L2Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hcQ-T5-1xH"/>
                             <constraint firstItem="dTJ-s1-Q6j" firstAttribute="top" secondItem="q3Y-he-imi" secondAttribute="bottom" constant="100" id="iTa-bN-IKU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dTJ-s1-Q6j" secondAttribute="bottom" constant="100" id="rIF-GJ-aoc"/>
                             <constraint firstItem="dTJ-s1-Q6j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uVC-jV-HEG"/>

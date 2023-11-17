@@ -46,6 +46,15 @@ extension ViewController {
 }
 
 extension ViewController {
+    @IBAction private func touchTestButton() {
+        for i in 0...10_000_000 {
+            autoreleasepool {
+                let string = "\(i)"
+                self.timeLabel.text = string
+            }
+        }
+    }
+
     @IBAction private func touchActionButton() {
         self.state = self.state?.nextState
         self.state?.updateUI()
